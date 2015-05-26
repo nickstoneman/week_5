@@ -1,0 +1,18 @@
+<form action="/trip" method="get">
+  <label for="distance">distance</label>
+  <input type="text" name="distance" placeholder="distance">
+  <label for="mpg">mpg</label>
+  <input type="text" name="mpg" placeholder="mpg">
+ 
+  <label for="fuel_price">fuel price</label>
+  <input type="text" name="fuel_price" placeholder="price">
+  <label for="speed">speed</label>
+  <input type="text" name="speed" placeholder="miles">  
+  <input type="submit">
+</form>
+
+<% if @result_hours %>
+<% if @cost_of %>
+<p>It will take you <%= @result_hours %> hours at a cost of <% @cost_of %></p>
+<% end %>
+<% end %>
