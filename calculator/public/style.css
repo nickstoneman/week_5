@@ -49,18 +49,45 @@ nav a.active {
   color: #444;
   cursor: default;
 }
+
+.nav li {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+input {
+  margin: 1em 1em 1em;
+}
+
+input {
+  padding: 0.4em 0.25em;
+  width: 15%;
+  background: transparent;
+  color: #AFB5BB;
+  font-size: 1.55em;
+  display: inline;
+}
+
+label {
+  padding: 0.4em 0.25em;
+  /*width: 10%;*/
+  background: transparent;
+  color: #AFB5BB;
+  font-size: 1.55em;
+  display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
-/*@media screen and (min-width: 600px) {
-  .nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-  }*/
- 
-  /* Option 1 - Display Inline */
-  .nav li {
-    display: inline-block;
-    margin-right: 4px;
-  }
