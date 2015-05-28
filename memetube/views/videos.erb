@@ -1,0 +1,8 @@
+<h1>the Video List</h1>
+
+<% @videos.each do |video| %>
+    <p><%= video["title"] %></p>
+    <p><%= video["description"] %></p>
+    <p><%= video["url"] %></p>
+    <p><%= video["genre"] %></p>
+<% end %>
