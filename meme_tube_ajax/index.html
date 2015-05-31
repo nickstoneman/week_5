@@ -1,0 +1,11 @@
+<iframe id="player" type="text/html" width="640" height="390"
+  src="http://www.youtube.com/embed/prBaZzYmQrI"
+  frameborder="0"></iframe>
+
+  https://youtu.be/prBaZzYmQrI
+
+  $('<li class="'+ (data.done == 't' ? "completed" : "") + '">'+
+      '<input class="toggle" type="checkbox" data-id="'+ data.id +'" '+ (data.done == 't' ? 'checked="checked"' : "") + '>'+
+      '<label>'+ data.artist +'</label>'+
+      '<button class="destroy" data-id="'+ data.id +'"></button>'+
+    '</li>').prependTo("#todo-list")
